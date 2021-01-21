@@ -14,4 +14,10 @@ func main() {
 	} else {
 		fmt.Println("NO")
 	}
+
+	if "hello" == "bye" {
+		fmt.Println("hye")
+	} else {
+		fmt.Println("NO")
+	}
 }
