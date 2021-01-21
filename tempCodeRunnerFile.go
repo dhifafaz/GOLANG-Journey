@@ -3,31 +3,19 @@ package main
 import "fmt"
 
 func main() {
-	var input int
-	fmt.Println("Enter a number")
-	fmt.Scanln(&input)
-	switch input {
-	case 1:
-		fmt.Println("One")
-	case 2:
-		fmt.Println("Two")
-	case 3:
-		fmt.Println("Three")
-	default:
-		fmt.Println("Enter between 1 to 3")
+	// Go only support for loop that can be implemented widely
+	for counter := 1; counter <= 100; counter++ {
+		fmt.Println(counter)
 	}
-
-	var inputString string
-	fmt.Println("Enter a color")
-	fmt.Scanln(&inputString)
-	switch inputString {
-	case "red":
-		fmt.Println("Red")
-	case "green":
-		fmt.Println("Green")
-	case "blue":
-		fmt.Println("Blue")
-	default:
-		fmt.Println("Enter only RGB color")
+	// you can use for loop as this
+	counter2 := 0
+	for counter2 <= 10 {
+		fmt.Println(counter2)
+		counter2++
+	}
+	// you can use for loop as this
+	counter3 := 10
+	for ; counter3 >= 0; counter3-- {
+		fmt.Println(counter3)
 	}
 }
