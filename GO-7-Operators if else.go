@@ -20,4 +20,16 @@ func main() {
 	} else {
 		fmt.Println("NO")
 	}
+
+	if 1 < 2 && 2 == 2 {
+		fmt.Println("hye")
+	} else {
+		fmt.Println("NO")
+	}
+
+	if 1 > 2 || 3 == 2 {
+		fmt.Println("hye")
+	} else {
+		fmt.Println("NO")
+	}
 }
