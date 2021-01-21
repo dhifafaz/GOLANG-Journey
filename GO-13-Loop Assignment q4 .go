@@ -4,13 +4,13 @@ import "fmt"
 
 func main() {
 	// to check if given number is palindrome
-	var reversedNumber, input, note int
+	var lastDigit, input, note int
 	fmt.Scanln(&input)
 	var newNumber int = 0
 	note = input
 	for input != 0 {
-		reversedNumber = input % 10
-		newNumber = newNumber*10 + reversedNumber
+		lastDigit = input % 10
+		newNumber = newNumber*10 + lastDigit
 		input /= 10
 
 	}
