@@ -3,13 +3,14 @@ package main
 import "fmt"
 
 func main() {
-	// Array
-	var n [5]int
-	for i := 0; i < 5; i++ {
-		n[i] = i + 10
-	}
-	fmt.Println(n[0], n[4])
+	//calculate array length
+	a := []int{1, 2, 4, 5, 6, 7}
+	fmt.Println(len(a))
 
-	z := [10]int{2, 3, 4, 5}
-	fmt.Println(z)
+	// find sum of all no in array
+	var sum int = 0
+	for i := 0; i < len(a); i++ {
+		sum += a[i]
+	}
+	fmt.Println(sum)
 }
