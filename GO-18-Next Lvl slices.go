@@ -22,4 +22,8 @@ func main() {
 	var c []int = b[:5] // slices==> array variable [lower bound : higher bound]
 	// the default[0:len of array]
 	fmt.Println(c)
+
+	// capacity and length
+	//to calculate the capacity is len array - lower bound of slice
+	//the length it selfs is the length of the slice wich is the higehr bound
 }
