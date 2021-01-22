@@ -12,4 +12,5 @@ func main() {
 
 	z := [10]int{2, 3, 4, 5}
 	fmt.Println(z)
+
 }
