@@ -32,5 +32,5 @@ func main() {
 		flag = 0
 		count = 0
 	}
-	fmt.Println(ch)
+
 }
